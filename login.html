@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #ababf5;
             margin: 0;
             padding: 0;
         }
@@ -15,7 +15,7 @@
             width: 300px;
             margin: 100px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color:rgb(207, 207, 235);
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -30,10 +30,14 @@
             box-sizing: border-box;
         }
         input[type="submit"] {
-            background-color: #007bff;
+            background-color:rgb(95, 95, 240);
             color: #fff;
             cursor: pointer;
         }
+        .submit:hover{
+            background-color: blue;
+        }
+        
     </style>
 </head>
 <body>
@@ -46,7 +50,7 @@
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
 
-            <input type="submit" value="Login">
+            <input type="submit" value="Login" class="submit">
         </form>
     </div>
 </body>
