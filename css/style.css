@@ -1,0 +1,120 @@
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+  
+  /* Preferred box-sizing value */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    Remove list styles (bullets/numbers)
+    in case you use it with normalize.css
+  */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* For images to not be able to exceed their container */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Removes spacing between cells in tables */
+  table {
+    border-collapse: collapse;
+  }
+  
+  /* Revert the 'white-space' property for textarea elements on Safari */
+  textarea {
+    white-space: revert;
+  }
+.navbar{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    font-family:Rubik,sans-serif;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+
+}
+
+.navbar p{
+  text-align: center;
+  
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
+}
+.one{
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+    
+}
+p:hover{
+    color: white;
+    background-color: rgb(27, 119, 57);
+    
+    cursor: pointer;
+    
+}
+.two{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-bottom: 37px;
+    align-self: center;
+    gap: 20px;
+    height: 4px;
+    
+    }
+.signup{
+    background-color: rgb(72, 184, 72);
+    border-radius: 30px;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    height: 40px;
+    align-content: center;
+    
+}
+.login{
+    background-color: rgb(175, 241, 175);
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-content: center;
+    
+    
+}
+ body{
+    background-color: rgb(29, 24, 24);
+}
+
