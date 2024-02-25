@@ -73,7 +73,7 @@
   
     
 }
-p:hover{
+.navbar p:hover{
     color: white;
     background-color: rgb(27, 119, 57);
     
@@ -86,7 +86,8 @@ p:hover{
     
     margin-bottom: 37px;
     align-self: center;
-    
+    justify-content: center;
+    margin-right: 10px;
     height: 4px;
     
     }
@@ -109,7 +110,8 @@ p:hover{
     height: 40px;
     padding-top: 10px !important;
     padding-bottom: 16px;
-    align-content: center;
+    
+    
     
     
     
@@ -177,11 +179,13 @@ body {
 }
 .container {
   max-width: 400px;
-  margin: 150px auto;
-  padding: 20px;
+  
+  
+  padding: 40px;
   background-color:rgb(250, 253, 250);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
   
 }
 h2 {
@@ -226,7 +230,7 @@ body {
 }
 .container {
   width: 300px;
-  margin: 100px auto;
+  margin: 150px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
@@ -246,4 +250,73 @@ input[type="submit"] {
   background-color: #4caf50;
   color: #fff;
   cursor: pointer;
+}
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(219, 245, 219);
+}
+.containerf {
+  margin: 70px;
+  padding: 100px;
+  
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  align-self: center;
+}
+.faq-item {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+}
+.faq-answer {
+  display: none;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+main {
+  padding: 20px;
+}
+h1, h2, p {
+  margin-bottom: 20px;
+}
+
+
+.us{
+  text-align:left;
+}
+.hed{
+  text-align: left;
 }
