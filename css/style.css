@@ -86,7 +86,7 @@ p:hover{
     
     margin-bottom: 37px;
     align-self: center;
-    gap: 20px;
+    
     height: 4px;
     
     }
@@ -94,22 +94,25 @@ p:hover{
     background-color: rgb(72, 184, 72);
     border-radius: 30px;
     color: white;
-    
-    
     padding-top: 10px !important;
-    
+    margin-right: -30px;
+    margin-left: -20px;
+    z-index: 1;
     height: 40px;
     align-content: center;
     
 }
 .login{
-    background-color: rgb(175, 241, 175);
+    background-color: rgb(212, 247, 212);
     border-radius: 30px;
-    
+    width: 130px;
     height: 40px;
     padding-top: 10px !important;
     padding-bottom: 16px;
     align-content: center;
+    
+    
+    
 }
  body{
     background-color:white;
@@ -141,8 +144,8 @@ header,h2{
   cursor: pointer;
 }
 .header{
-  margin-top: 70px;
-  margin-left: 200px;
+  margin: 150px;
+  margin-left: 100px;
 }
 .text1{
   padding-bottom: 50px;
