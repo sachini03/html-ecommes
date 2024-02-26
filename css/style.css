@@ -113,7 +113,7 @@
     
     
     
-    
+/*-- index   --*/   
     
 }
  body{
@@ -169,19 +169,26 @@ header,h2{
 
 
 
-
+/*-- sign up-->*/
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color:rgb(219, 245, 219);
+  height: 100vh;
 }
-.container {
-  max-width: 400px;
+.formsignup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.containers {
+  max-width: 300px;
   
   
-  padding: 40px;
+  padding: 30px;
   background-color:rgb(250, 253, 250);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -219,20 +226,35 @@ input[type="submit"]:hover {
 
 
 
-
+/*<!-- login --->*/
 
 
 body {
   font-family: Arial, sans-serif;
-  background-color:rgb(219, 245, 219);
+  background-color:rgb(208, 238, 208);
   margin: 0;
   padding: 0;
+  height: 100vh;
+  
+  
 }
-.container {
-  width: 300px;
-  margin: 150px auto;
-  padding: 20px;
-  background-color: #fff;
+.containerl{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+  
+}  
+   
+
+
+.formconteiner {
+  max-width: 300px;
+  padding: 30px;
+  
+  height: 300px;
+  background-color: #fdf9f9;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -247,13 +269,21 @@ input[type="submit"] {
   box-sizing: border-box;
 }
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color:#4caf50;
   color: #fff;
   cursor: pointer;
 }
 
+input[type="password"]:hover{
+  background-color: rgb(211, 247, 211);
+}
+input[type="text"]:hover{
+  background-color: rgb(211, 247, 211);
+}
 
 
+
+/*<!--faq   -->*/
 
 
 
@@ -292,7 +322,7 @@ body {
 
 
 
-
+/*<!-- about us-->*/
 
 
 body {
